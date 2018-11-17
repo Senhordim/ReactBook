@@ -1,0 +1,24 @@
+.PostHeader-content {
+  display: flex; /* or inline-flex */
+  flex-direction: row;
+  margin-bottom: 20px;
+
+  img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+
+  .PostHeader-content-info {
+    margin-left: 20px;
+    margin-top: 30px;
+    h2 {
+      font-size: 18px;
+      color: #666666;
+    }
+
+    p {
+      color: #b5b5b5;
+    }
+  }
+}

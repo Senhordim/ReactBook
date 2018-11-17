@@ -1,0 +1,17 @@
+.Post-content {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  margin-bottom: 25px;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+
+  .Post-resume {
+    color: #383838;
+    font-size: 15px;
+    line-height: 22px;
+  }
+}
+
+.Post-content:first-child {
+  margin-top: 25px;
+}
